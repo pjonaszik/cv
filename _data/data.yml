@@ -1,0 +1,169 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: right # position of the sidebar : left or right
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Philippe J.
+    tagline: Senior FullStack Developer
+    avatar: photo.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: lionus1@live.fr
+    phone: Next time maybe :)
+    #timezone: America/Cancun Timezone
+    #citizenship:
+    #website: blog.webjeda.com #do not add http://
+    linkedin: philippewilfrandj
+    #xing: alandoe
+    github: pjonaszik
+    #telegram: # add your nickname without '@' sign
+    #gitlab:
+    #bitbucket:
+    #twitter: '@webjeda'
+    stack-overflow: 9117909/spartacvs1 # Number/Username, e.g. 123456/alandoe
+    #codewars:
+    #goodreads: # Number-Username, e.g. 123456-alandoe
+    #pdf: http://www.africau.edu/images/default/sample.pdf
+
+    languages:
+      title: Languages
+      info:
+        - idiom: English
+          level: Professional
+
+        - idiom: French
+          level: Native
+
+    interests:
+      title: Interests
+      info:
+        - item: Meditation
+          link:
+
+        - item: Football
+          link:
+
+        - item: Artificial Intelligence
+          link:
+
+        - item: Ethical Hacking
+          link:
+
+career-profile:
+    title: Summary
+    summary: |
+      Highly skilled and experienced <b>Senior Development Engineer</b> with a proven track record in various domains including <b>HR-Tech,
+      Fintech, Digital Agency, and Military</b>. Specialized in <b>backend and full-stack development</b>, with expertise in <b>PHP 5.x, 7.x, 8.x, Symfony 3.x ..6.x,
+      Laravel 5..10</b>, and other web technologies(<b>Rust, Tauri, Flutter, NestJs</b>), caching with <b>Redis</b>. Strong knowledge of <b>API development, DDD, MVC & Hexagonal/EDA architecture</b>, databases (<b>MySql/Postgres & NoSql Mongo/DynamoDb</b>), and front-end frameworks
+      like <b>React, Angular, and Vue.js</b>. Excellent problem-solving abilities, team collaboration skills, and a <b>passion for delivering
+      high-quality solutions.</b>
+education:
+    title: Education
+    info:
+      - degree: |
+          <b>Digital Project Manager: Software Development</b><br>Information and communication technology project management.
+        university: <h4>Digital Campus - ex Paris Digital School</h4>
+        time: 2016 - 2018
+        details: |
+          Agile project management (Scrum) and waterfall project management, UX/UI Design, intelligence, sales and marketing.<br>
+          Analysis (Google Analytics), projects (Trello), website creation (Wordpress and PHP Frameworks), graphics (Adobe XD), spreadsheets (Excel, Numbers).
+            - Framing and formalising customer needs: analysing the feasibility of a project, identifying the necessary resources, presenting the solution.
+            - Managing digital projects from A to Z: auditing, setting up a test protocol, managing a sprint, modelling data and launching the product on the market.
+            - Ensuring that a project stays on schedule, meets quality requirements and stays within budget: prioritising, prototyping, continuous product improvement and reporting.
+            - Bringing stakeholders together: managing internal and external conflicts and problems, leading meetings.
+            - Developing a web marketing strategy: implementing a content and SEO strategy and managing a web campaign.
+      - degree: |
+          <b>Bachelor Degree: Communication - Not assessed</b>
+        university: <h4>ENACO - First Onlne Business School</h4>
+        time: 2015 - 2016 & half 2017 - 2018 
+        details: |
+          The European Bachelor's degree in Communication trains you in communication professions with the aim of developing a company's reputation and visibility by setting it apart from the competition.
+            - Managing the development of a company's communications.
+            - Creating communication, marketing and digital strategies for companies.
+            - Designing and implementing communication campaigns.
+            - Coordinating in-house teams, service providers and partners.
+      - degree: |
+          <b>Diploma of General University Studies (DUT)</b><br>Administration / Management of Small and Medium-sized Enterprises
+        university: <h4>University of Le Mans - France</h4>
+        time: 2010 - 2012 
+        details: |
+          The European Bachelor's degree in Communication train you in communication professions with the aim of developing a company's reputation and visibility by setting it apart from the competition.
+            - Analyse: analyse the organisation's processes within its environment.
+            - Deciding: helping to make decisions.
+            - Managing: managing relations with the organisation's stakeholders.
+            - Designing: designing management control tools.
+            - Improving: implementing levers for continuous improvement of the organisation's performance.
+            - Produce: produce the organisation's accounting, tax and social information.
+            - Evaluate: evaluate the organisation's activity.
+            - Undertake: design the value creation strategy.
+            - Developing: managing and developing the value chain & the human resources.
+            - Administer: manage personnel administration.
+experiences:
+    title: Experiences
+    info:
+      - role: <b>Senior Development Engineer</b>
+        time: Dec 2022 - Present
+        company: Global Savings Group, Paris
+        details: |
+          Working in a team of a dozen senior developers of
+          different nationalities on the development of a
+          platform for managing the products and offers of various stakeholders,
+          including commercial partners such as Nike, Booking and AliExpress
+            - Responsibilities: Development of microservices/application template/skeleton/boilerplate "Empty-shell" using Node.js/Nest.js and PHP 8.2 (Symfony 6.2) on hexagonal architecture, with tests, a CI/CD pipeline on GitLab, and deployment on AWS.
+      - role: <b>Senior Fullstack Engineer</b>
+        time: Apr 2022 - Aug 2022
+        company: Talentry by CleverConnect
+        details: |
+          project focused on HR-Tech and recruitment, developing features and maintaining the platform. Utilized Symfony and Angular for backend and frontend development. Collaborated with a team of developers (France, Berlin, India, USA) to ensure the smooth functioning of the platform.
+            - Stack: Php 8.1 - Symfony 5 - Angular 12 (Front) - ReactJs (Admin panel)
+            - Working on Front-End (Admin panel for retruiters and talents - client) and Backend (microservice & DDD, Api/Rest)
+      - role: <b>Fullstack Engineer</b>
+        time: Oct 2019 - Apr 2022
+        company: WariPay (TSI-Payment for Transactions Service International)
+        details: |
+          FIntech providing money transfer, bill payment and mobile top-up services, as well as payment methods such as prepaid cards and payment by Qr-code.
+            - Stack: Php 7.4, 8.1 - Laravel 6+/Lumen - Angular 8 (Core Tribe Admin panel) - ReactJs (Admin panel for dozen of microservices)
+            - Reponsibilities: Following the same DDD Laravel boilerplate we've built as a POC, my microservices were: Account, User, KYM, KYC, Keycloak intégration with common usage of AWS services (SNS, SQS, QLDB).
+      - role: <b>Fullstack Developper</b>
+        time: May 2019 - Oct 2019
+        company: Dimension 4
+        details: |
+          Medium-sized company offering support and outsourced services to businesses such as a crowdfunding platform, asset management and visualisation and rental investment projects for private individuals, with clients including Amundi Immobilier & 123Venture Invest.
+            - Stack: One monolyth on Symfony 3,4, Twig & Bootstrap. PgSql & Gitlab. Plesk on a dedicated server.
+      - role: <b>Fullstack Engineer</b>
+        time: Aug 2018 - May 2019
+        company: Sinfin - Digital Agency
+        details: |
+          A digital agency working on a wide range of projects from a basic landing page to an ecommerce website, through apps, mobile app, webapps and REST for applications and data inter exchange.
+          - Building and/or maintaining applications using PHP 5+, Laravel 4,5/Symfony 2.w 3.x, Magento, Drupal, and JavaScript frameworks such as ReactJs.
+          - Worked on projects for clients such as Bollore Logistics and Ubisoft, La Chaise Longue, Lacoste, YSchool.
+          - Implementing features and ensuring the smooth functioning of the applications.
+      - role: <b>Fullstack Engineer</b>
+        time: Jul 2017 - Aug 2018
+        company: My Digit Company by Systeo Consulting
+        details: |
+          A digital agency providing a plateform plugged to Salesforce with Apex to provide opportunities.
+            - Contributed to the development of full-stack applications using PHP, Laravel, Salesforce, and JavaScript frameworks (JQuery).
+            - Collaborated with clients to understand their requirements and delivered customized solutions.
+      - role: <b>Web training consultant</b>
+        time: Mar 2017 - Jul 2017
+        company: ESIC - Training Center
+        details: |
+          Conducted training sessions on web technologies such as PHP, Symfony, HTML, CSS, JavaScript, and jQuery. Provided guidance and support to trainees, helping them acquire necessary skills for web development
+      - role: <b>Fullstack Engineer - Consulting</b>
+        time: 2017 -
+        company: Astek, Paris
+        details: |
+          Worked with clients like Treezor (Fintech - Core Banking) and Leasecom (Asset Management & Leasing), providing consulting services and developing new features & maintaining legacy apps. I did use technologies such as PHP 7.x, 8.x, Laravel, React, and React Native.
+          Collaborated with the team to reduce technical debt and improve the existing legacy systems.
+            - Front & Back applications and microservices development
+            - Stack & tech: Php5,7.x, 8.1, Laravel 5-9, Symfony 3.2 ..6, React/React Native, Angular 7 ..12, & VueJs, Flutter & Dart, MERN Stack
+     
+
+#footer: >
+#    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
